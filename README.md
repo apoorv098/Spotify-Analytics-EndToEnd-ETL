@@ -23,3 +23,10 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 
 
 ![Total Tracks](https://github.com/user-attachments/assets/e635bf0e-1e88-4aa0-a9a9-d2a3fec911d8)
+
+
+
+### Insights:
+
+* Animal Movie Album has the highest popularity score (76) among the choosen albums.
+* Rocky Aur Rani Kii Prem Kahaani has the highest number of tracks (15) among the choosen albums.
