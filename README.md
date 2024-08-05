@@ -35,3 +35,5 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 
 
 ### Dag Built
+
+![dag](https://github.com/user-attachments/assets/e97f96ad-4967-41ac-93a0-e0c544ee7805)
