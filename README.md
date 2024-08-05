@@ -84,3 +84,16 @@ Tasks:
 ### Functionality
  Python code extracts data into json format and loads it into amazon s3 bucket which then triggers a series of lambda functions which then ultimately transforms the data, converts into a csv file format and load the data into another S3 bucket using Apache Airflow. Apache airflow will utilize an S3KeySensor operator to monitor if the transformed data has been uploaded into the aws S3 bucket before attempting to load the data into an amazon redshift. 
 After the data is loaded into aws redshift, then we will connect amazon quicksight to the redshift cluster to then visualize the data. 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+### Reference
+
+[Youtube tuplespectra](https://www.youtube.com/watch?v=TvoiQ8Z1lGA)
+
