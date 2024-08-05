@@ -14,6 +14,7 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 * QuickSight
 
 
+
 ## Final QuickSight Dashboard generated
 
 
@@ -26,6 +27,7 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 
 
 
+
 ### Insights:
 
 * Animal Movie Album has the highest popularity score (76) among the choosen albums.
@@ -33,9 +35,17 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 
 
 
+
+
+
 ### Architecture
 
 ![AWS Architecture](https://github.com/user-attachments/assets/9d4c62e6-70d0-48c7-b85c-1c2c93b69baf)
+
+
+
+
+
 
 
 
