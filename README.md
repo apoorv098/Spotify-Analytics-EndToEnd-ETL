@@ -17,11 +17,9 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 ## Final QuickSight Dashboard generated
 
 
-![Alt text](images/Album Vs Popularity.png)
 
 
-  
+![Album Vs Popularity](https://github.com/user-attachments/assets/39558e85-c30b-413a-acad-77a4ae41a53a)
 
 
-
-
+![Total Tracks](https://github.com/user-attachments/assets/e635bf0e-1e88-4aa0-a9a9-d2a3fec911d8)
