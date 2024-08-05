@@ -33,7 +33,21 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 
 
 
+### Architecture
+
+![AWS Architecture](https://github.com/user-attachments/assets/9d4c62e6-70d0-48c7-b85c-1c2c93b69baf)
+
+
+
+
 
 ### Dag Built
 
 ![dag](https://github.com/user-attachments/assets/e97f96ad-4967-41ac-93a0-e0c544ee7805)
+
+
+Tasks:
+* extract_spotify_data_var -- extracts data from api and stores in a json file
+* load_to_s3 -- load the json into S3 bucket called raw bucket
+* is_file_in_s3_available -- Will check if the data is in S3 or not before loading into Amazon redshift
+* transfer_s3_to_redshift -- Will load the data into redshift
