@@ -72,3 +72,15 @@ Tasks:
 * load_to_s3 -- load the json into S3 bucket called raw bucket
 * is_file_in_s3_available -- Will check if the data is in S3 or not before loading into Amazon redshift
 * transfer_s3_to_redshift -- Will load the data into redshift
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+### Functionality
+ Python code extracts data into json format and loads it into amazon s3 bucket which then triggers a series of lambda functions which then ultimately transforms the data, converts into a csv file format and load the data into another S3 bucket using Apache Airflow. Apache airflow will utilize an S3KeySensor operator to monitor if the transformed data has been uploaded into the aws S3 bucket before attempting to load the data into an amazon redshift. 
+After the data is loaded into aws redshift, then we will connect amazon quicksight to the redshift cluster to then visualize the data. 
