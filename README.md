@@ -29,6 +29,8 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 
 
 ### Insights:
@@ -52,12 +54,13 @@ In this project, I have built End to End ETL pipeline for analyzing Top 8 2024 B
 
 
 
-
-
-
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### Dag Built
 
